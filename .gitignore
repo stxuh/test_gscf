@@ -8,4 +8,3 @@ results
 cypress/screenshots/
 test-results.xml
 yarn-error.log
-package-lock.json

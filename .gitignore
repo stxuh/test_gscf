@@ -1,0 +1,11 @@
+node_modules
+downloads
+results
+.idea
+*.iml
+**/*.js
+.DS_Store
+cypress/screenshots/
+test-results.xml
+yarn-error.log
+package-lock.json

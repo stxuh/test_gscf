@@ -1,0 +1,15 @@
+{
+  "name": "test_gscf",
+  "version": "1.0.0",
+  "description": "Testing gscf",
+  "scripts": {
+    "test:ci": "cypress run --e2e --headless -b chrome",
+    "local:open": "cypress open --e2e --browser chrome"
+  },
+  "dependencies": {
+    "cypress": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

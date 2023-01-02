@@ -3,12 +3,12 @@ import XvzBankPage from "../pages/xvzBankPage";
 
 const xvzBankPage = new XvzBankPage();
 
-context("E2E - Administration view keyboard navigation", () => {
+context("XvzBank test", () => {
     beforeEach(() => {
         xvzBankPage.login(Cypress.env("login"));
     });
 
-    it("Write a Cypress test in GitHub", () => {
+    it("Test deposit", () => {
         xvzBankPage.assertLogin(Cypress.env("login"))
             .deposit("100")
             .assertDeposit("100")

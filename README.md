@@ -1,6 +1,4 @@
-# test_gscf
-
-Test task for GSCF
+# Test task for GSCF
 
 Test of functionality: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
 

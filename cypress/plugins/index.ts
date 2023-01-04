@@ -27,21 +27,3 @@ const logging = {
     return null;
   },
 };
-const getClipboard = {
-  getClipboard: () => {
-    return require("clipboardy").readSync();
-  },
-};
-
-module.exports = (on) => {
-  // register plugin's task
-  on("task", logging);
-  // and register my own task
-  on("task", getClipboard);
-};
-
-declare namespace Cypress {
-  interface Chainable<Subject = any> {
-    checkSpinner(): Chainable<null>;
-  }
-}
